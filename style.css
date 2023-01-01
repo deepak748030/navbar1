@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: rgba(1, 1, 86, 0.944);
+    height: 100vh;
+}
+
+.nav {
+    background-color: rgb(3, 3, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 1rem 3rem;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links ul li:hover{
+    background-color: rgb(255, 0, 153);
+    transform: scale(1.1);
+}
+
+.links ul li {
+    list-style: none;
+    padding: .4rem .6rem;
+    border-radius: .1rem;
+    margin:.1rem .3rem;
+    transition: all .3s ease;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: .1rem;
+    font-weight: bolder;
+}
+
+.nav-l input {
+    padding: .4rem .5rem;
+    border: none;
+    border-radius: .2rem;
+    margin-right: 1rem;
+    outline: none;
+  
+    
+}
+
+button{
+    padding:.4rem .5rem ;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    border-radius: .1rem;
+    border: none;
+  transition: all .3s ease;
+ 
+}
+
+button:hover{
+    background-color: rgb(255, 0, 153);
+    color: white;
+    
+}
